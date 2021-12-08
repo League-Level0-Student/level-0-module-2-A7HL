@@ -12,7 +12,6 @@ public class HowMany {
 		int number = 0;
 		System.out.println(number);
 	}
-	
 	int getRandomNumber() {
 		Random random = new Random();
 		int number = random.nextInt(100)+1;
